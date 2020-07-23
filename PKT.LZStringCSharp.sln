@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29318.209
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PKT.LZStringCSharp", "PKT.LZStringCSharp\PKT.LZStringCSharp.csproj", "{0F869C28-7595-4A3A-BD6F-309F8B2F5E44}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{08AC0D3C-A71F-4BB6-8987-CFF8E0B0D7EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PKT.LZStringCSharp.Test", "PKT.LZStringCSharp.Test\PKT.LZStringCSharp.Test.csproj", "{09AE04DA-F141-45D4-B5DC-B320734FF55F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F869C28-7595-4A3A-BD6F-309F8B2F5E44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F869C28-7595-4A3A-BD6F-309F8B2F5E44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F869C28-7595-4A3A-BD6F-309F8B2F5E44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F869C28-7595-4A3A-BD6F-309F8B2F5E44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09AE04DA-F141-45D4-B5DC-B320734FF55F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09AE04DA-F141-45D4-B5DC-B320734FF55F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09AE04DA-F141-45D4-B5DC-B320734FF55F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09AE04DA-F141-45D4-B5DC-B320734FF55F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{09AE04DA-F141-45D4-B5DC-B320734FF55F} = {08AC0D3C-A71F-4BB6-8987-CFF8E0B0D7EC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8803F9F9-13D7-4689-894D-5E47621DC863}
+	EndGlobalSection
+EndGlobal
