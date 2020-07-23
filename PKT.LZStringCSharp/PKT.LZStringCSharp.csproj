@@ -10,6 +10,7 @@
     <Version>2.0.0</Version>
     <Copyright></Copyright>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/pktcore/PKT.LZStringCSharp</PackageProjectUrl>
   </PropertyGroup>
 
 </Project>
