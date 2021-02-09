@@ -5,9 +5,11 @@ VisualStudioVersion = 16.0.29318.209
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PKT.LZStringCSharp", "PKT.LZStringCSharp\PKT.LZStringCSharp.csproj", "{0F869C28-7595-4A3A-BD6F-309F8B2F5E44}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{08AC0D3C-A71F-4BB6-8987-CFF8E0B0D7EC}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{08AC0D3C-A71F-4BB6-8987-CFF8E0B0D7EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PKT.LZStringCSharp.Test", "PKT.LZStringCSharp.Test\PKT.LZStringCSharp.Test.csproj", "{09AE04DA-F141-45D4-B5DC-B320734FF55F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PKT.LZStringCSharp.Test", "PKT.LZStringCSharp.Test\PKT.LZStringCSharp.Test.csproj", "{09AE04DA-F141-45D4-B5DC-B320734FF55F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7D13858D-9FB4-43CF-B68A-AE9B982C4013}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -28,6 +30,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{0F869C28-7595-4A3A-BD6F-309F8B2F5E44} = {7D13858D-9FB4-43CF-B68A-AE9B982C4013}
 		{09AE04DA-F141-45D4-B5DC-B320734FF55F} = {08AC0D3C-A71F-4BB6-8987-CFF8E0B0D7EC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
